@@ -24,7 +24,6 @@ def main():
             else:
                 n[j] = 6
                 new += 1
-            j += 1
         for j in range(new):
             n.append(8)
     print(len(n))
