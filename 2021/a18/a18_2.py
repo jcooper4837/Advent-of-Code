@@ -98,10 +98,6 @@ def main():
                             b = b[:k]+str(new)+b[k+1+e:]
                             break
                         k += 1
-                    if b[j] != '[':
-                        b = b[:j]+"0"+b[it+1:]
-                        print(b)
-                        input()
                     b = b[:j]+"0"+b[it+1:]
                     cnt = 1
                     j = 1
